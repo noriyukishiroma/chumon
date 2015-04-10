@@ -43,3 +43,10 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+gem 'bootstrap-sass','~> 3.1.1'
+
+group :development do
+  gem 'hirb-unicode' # hrib の日本語対応拡張
+end
+
